@@ -1,5 +1,6 @@
-from typing import List
+# https://leetcode.com/problems/subarray-sums-divisible-by-k/description/
 
+from typing import List
 class Solution:
     def subarraysDivByK(self, nums: List[int], k: int) -> int:
         # Dictionary to store the cumulative sum modulo k and its frequency
