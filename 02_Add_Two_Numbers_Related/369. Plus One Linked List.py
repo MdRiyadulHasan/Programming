@@ -27,9 +27,11 @@ class Solution:
                 rem = total%10 
                 carry = total//10
                 node.val = rem 
-                if carry and not node.next:
-                    node.next = ListNode(0)
+                pre = node
                 node = node.next
+            if carry:
+                pre.next = ListNode(carry)
+
         # Reverse the linked list back
         reversedHead = reversedList(head)
         addOne(reversedHead)
@@ -37,7 +39,7 @@ class Solution:
         return result
 
 
-linked_list = ListNode(9, ListNode(7, ListNode(9)))
+linked_list = ListNode(9, ListNode(9, ListNode(9)))
 
 
 solution = Solution()
