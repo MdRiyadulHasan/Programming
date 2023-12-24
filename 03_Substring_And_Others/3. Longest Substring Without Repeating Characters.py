@@ -5,7 +5,7 @@ class Solution:
         if len(s) == 1:
             return 1
 
-        count = 0
+        maxLength = 0
         result = ''
 
         for ch in s:
@@ -13,9 +13,9 @@ class Solution:
                 result += ch
             else:
                 result = result[result.index(ch) + 1:] + ch
-            count = max(count, len(result))
+            maxLength = max(maxLength, len(result))
 
-        return count
+        return maxLength
 
 # Example
 ob = Solution()
