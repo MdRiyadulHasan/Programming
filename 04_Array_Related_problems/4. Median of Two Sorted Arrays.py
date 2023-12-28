@@ -18,10 +18,11 @@ class Solution:
             nums2Left = nums2[m2] if m2>=0 else float('-inf')
             nums2Right = nums2[m2+1] if m2+1 <len(nums2) else float('inf')
             if nums1Left<=nums2Right and nums1Right>=nums2Left:
-                if n%2!=0:
-                    return min(nums1Right, nums2Right)
-                else:
+                if n%2==0:
                     return((max(nums1Left, nums2Left)+ min(nums1Right, nums2Right))/2)
+                else:
+                    return min(nums1Right, nums2Right)
+
             elif nums1Right<nums2Left:
                 l = m1+1
             else:
