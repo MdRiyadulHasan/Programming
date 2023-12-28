@@ -12,19 +12,20 @@ class Solution:
         r = len(nums1)-1
         while True:
             m1 = (l+r)//2
-            m2 = half-m1-1
+            m2 = half-m1-2
             nums1Left = nums1[m1] if m1>=0 else float('-inf')
             nums1Right = nums1[m1+1] if m1+1<len(nums1) else float('inf')
             nums2Left = nums2[m2] if m2>=0 else float('-inf')
             nums2Right = nums2[m2+1] if m2+1 <len(nums2) else float('inf')
             if nums1Left<=nums2Right and nums1Right>=nums2Left:
                 if n%2!=0:
-                    return (min(nums1Right, nums2Right))
+                    return min(nums1Right, nums2Right)
                 else:
-                    return(((max(nums1Left, nums2Left))+ min(nums1Right, nums2Right))/2)
+                    return((max(nums1Left, nums2Left)+ min(nums1Right, nums2Right))/2)
             elif nums1Right<nums2Left:
                 l = m1+1
-            else: r = m1-1
+            else:
+                r = m1-1
 # Example usage with arrays of size greater than 6
 solution = Solution()
 nums1 = [1, 3, 5, 7, 9]
