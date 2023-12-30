@@ -15,6 +15,6 @@ class Solution:
             rightProduct*=nums[i]
         return result
 ob = Solution()      
-nums = [1, 2, 3, 4]
+nums = [4,5,2,10,5]
 result = ob.productExceptSelf(nums)
 print(result)
