@@ -25,5 +25,27 @@ class Solution:
             curr = nxt
 
         # Recursively reverse the remaining groups
+        print("Previous call", prev.val)
         head.next = self.reverseKGroup(curr, k)
+        print(prev.val)
         return prev
+        print(prev.val)
+
+# Example usage:
+def printLinkedList(head):
+    while head:
+        print(head.val, end=" -> ")
+        head = head.next
+    print("None")
+
+# Create a linked list: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
+head = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5, ListNode(6, ListNode(7, ListNode(8))))))))
+print("Original Linked List:")
+printLinkedList(head)
+
+# Reverse nodes in k-group (e.g., k=3)
+sol = Solution()
+new_head = sol.reverseKGroup(head, 3)
+
+print("\nLinked List after reversing in k-group:")
+printLinkedList(new_head)
