@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/valid-triangle-number/description/
 from typing import List 
 class Solution:
     def triangleNumber(self, nums: List[int]) -> int:
