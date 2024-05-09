@@ -1,10 +1,10 @@
-def BubbleSort(arr):
-    n = len(arr)
+def BubbleSort(nums):
+    n = len(nums)
     for i in range(n-1):
         for j in range(n-1-i):
-            if arr[j+1]<arr[j]:
-                arr[j+1], arr[j] = arr[j], arr[j+1]
-    return arr
+            if nums[j]>nums[j+1]:
+                nums[j], nums[j+1] = nums[j+1], nums[j]
+    return nums
 
 if __name__ == '__main__':
     nums = [30,15,20,40,22,17]
