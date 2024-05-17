@@ -11,4 +11,13 @@ Leetcode
 (3) Longest Substring Without Repeating Characters
 (159) Longest Substring with At Most Two Distinct Characters
 (340) Longest Substring with At Most K Distinct Characters
+(992) Subarrays with K Different Integers
 
+17-05-2024
+(5) Longest Palindromic Substring
+(28) Find the Index of the First Occurrence in a String
+(647) Palindromic Substrings
+(266) Palindrome Permutation
+(214) Shortest Palindrome
+(459) Repeated Substring Pattern
+(686) Repeated String Match
