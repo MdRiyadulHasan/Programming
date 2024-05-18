@@ -21,3 +21,11 @@ Leetcode
 (214) Shortest Palindrome
 (459) Repeated Substring Pattern
 (686) Repeated String Match
+
+18-05-2024 
+(1768) Merge Strings Alternately
+(1071) Greatest Common Divisor of Strings
+(1979) Find Greatest Common Divisor of Array
+(2413) Smallest Even Multiple
+(1431) Kids With the Greatest Number of Candies
+(605) Can Place Flowers
