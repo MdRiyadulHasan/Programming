@@ -33,4 +33,4 @@ Leetcode
 
 19-05-2024 
 (344) Reverse String
-(345) Reverse Vowels of a String
+(345) Reverse Vowels of a String(2259) Remove Digit From Number to Maximize Result
