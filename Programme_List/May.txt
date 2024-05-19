@@ -40,4 +40,8 @@ Leetcode
 (402) Remove K Digits 
 (2810) Faulty Keyboard
 (917) Reverse Only Letters
-(151). Reverse Words in a String
+(151) Reverse Words in a String
+(443) String Compression
+(1313) Decompress Run-Length Encoded List
+(1588) Sum of All Odd Length Subarrays
+(633) Sum of Square Numbers
