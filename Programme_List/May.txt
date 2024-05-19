@@ -23,6 +23,7 @@ Leetcode
 (686) Repeated String Match
 
 18-05-2024 
+
 (1768) Merge Strings Alternately
 (1071) Greatest Common Divisor of Strings
 (1979) Find Greatest Common Divisor of Array
@@ -32,5 +33,11 @@ Leetcode
 (735) Asteroid Collision
 
 19-05-2024 
+
 (344) Reverse String
-(345) Reverse Vowels of a String(2259) Remove Digit From Number to Maximize Result
+(345) Reverse Vowels of a String
+(2259) Remove Digit From Number to Maximize Result
+(402) Remove K Digits 
+(2810) Faulty Keyboard
+(917) Reverse Only Letters
+(151). Reverse Words in a String
