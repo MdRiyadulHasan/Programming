@@ -49,3 +49,7 @@ Leetcode
 20-05-2024
 
 (1757) Recyclable and Low Fat Products
+
+21-05-2024 
+(238) Product of Array Except Self
+(152) Maximum Product Subarray
