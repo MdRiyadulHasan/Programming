@@ -60,3 +60,8 @@ Leetcode
 (237) Delete Node in a Linked List
 (876) Middle of the Linked List
 (206) Reverse Linked List
+
+29-05-2024
+(392) Is Subsequence
+(11) Container With Most Water
+(42) Trapping Rain Water
