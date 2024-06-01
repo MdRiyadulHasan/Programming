@@ -82,3 +82,10 @@ Leetcode
 (1013) Partition Array Into Three Parts With Equal Sum
 (1991) Find the Middle Index in Array
 (2215) Find the Difference of Two Arrays
+
+01-06-2024
+349. Intersection of Two Arrays
+350. Intersection of Two Arrays II
+2540. Minimum Common Value
+2248. Intersection of Multiple Arrays
+1207. Unique Number of Occurrences
