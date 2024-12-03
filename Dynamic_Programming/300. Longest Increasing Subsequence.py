@@ -1,12 +1,12 @@
 from typing import List 
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
-        if not nums:
-            return 0 
-        dp = [1]*len(nums) 
-        for i in range(1,len(nums)):
+        n = len(nums)
+        dp = [1]*n
+        for i in range(1,n):
             for j in range(i):
-                if nums[i]>nums[j] and dp[i]<=dp[j]:
-                    dp[i] = 1+dp[j]
+                if nums[j]<nums[i]:
+                    dp[i] = max(dp[i], dp[j]+1)
         return max(dp)
+  
 nums = [10,9,2,5,3,7,101,18]
