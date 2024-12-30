@@ -10,3 +10,4 @@ class Solution:
         return max(dp)
   
 nums = [10,9,2,5,3,7,101,18]
+nums = [1, 2, 1, 4, 6]
