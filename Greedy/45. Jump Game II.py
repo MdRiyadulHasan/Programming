@@ -10,3 +10,4 @@ class Solution:
                 jumps+=1
                 current_end = farthest 
         return jumps
+print("Hlw world")
